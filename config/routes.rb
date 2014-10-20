@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   root 'tweets#index'
   resources :tweets, only: [:new, :index, :create]
   get 'users/:id' => 'users#show', as: 'user'
+  get 'bio' => 'pages#bio', as: 'bio'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

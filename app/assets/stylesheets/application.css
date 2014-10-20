@@ -14,6 +14,14 @@
  *= require_self
  */
 
+/*body {
+    background-color: rgb(57, 147, 179);
+    background-position: center;
+    background-repeat: repeat;
+    margin-right: 200px;
+}
+*/
 body {
-    background-color: #d0e4fe;
+    background-image: url('hawaiian.jpg');
+    background-color: rgb(57, 147, 179);
 }
